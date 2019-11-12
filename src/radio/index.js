@@ -28,6 +28,10 @@ Component({
             type: String,
             value: 'left', //left right
             observer: 'setPosition'
+        },
+        label:{
+            type: String,
+            value:''
         }
     },
     data: {
